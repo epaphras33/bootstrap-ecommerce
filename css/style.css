@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto+Condensed&family=Ubuntu:wght@300&display=swap');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+/* ======= General Styling ======= */
+:root {
+  --primaryColor: #f75050;
+  --secondaryColor: #001a33;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: 'Ubuntu';
+  line-height: 1.4;
+  box-sizing: border-box;
+}
+.my-font {
+  font-family: 'Roboto Condensed';
+}
+
+.my-bg-color {
+  background-color: #001a33 !important;
+}
+
+.my-color {
+  color: #001a33;
+}
+
+.my-bg-sec-color {
+  background-color: #e6f2ff;
+}
+
+
+.smallie {
+  font-size: 12px;
+}
+/* ======= End of General Styling ======= */
+
+/* Info Top Bar */
+#info-bar button {
+  background-color: #f75050;
+}
+
+/* Navbar */
+.navbar-nav a:hover {
+  color: #f75050 !important;
+}
+
+/* Trending Section */
+.card {
+  transition: transform .2s ease-in;
+  cursor: pointer;
+}
+
+.card-header span {
+  border-radius: 50px;
+  background-color: #e6f2ff;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.trend-icon {
+  color: goldenrod;
+}
+
+.bottom-img {
+  width: 100% !important;
+}
+
+
+#banner {
+  background-color: #e6f2ff !important;
+}
+
+
+#info-bar a:hover {
+  color: #aaa !important;
+}
+
+#info-bar .fa:hover {
+  color: #aaa !important;
+}
+
+#follow-up .side-A {
+  background-color: #ffb3b3 !important;
+}
+
+#follow-up .side-B {
+  background-color: #e6f2ff !important;
+}
+
+/* Tail Section */
+#tail {
+  background-color: rgba(0, 40, 77, 0.8);
+}
+
+#tail a {
+  color: #aaa !important;
+}
+
+#footer {
+  background-color: #001a33;
+}
+
+/* go-top Button */
+.gotopbtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+  background: #f75050;
+  color: #fff;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+}
+
+.gotopbtn:hover {
+  background: #ffb3b3;
+  color: #000;
+}

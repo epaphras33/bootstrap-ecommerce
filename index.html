@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title & Icon -->
+    <title>e-Commerce Template 1 - Bootstrap 5</title>
+
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+
+    <!-- CSS Default -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Info Top Bar -->
+    <section id="info-bar" class="my-bg-color py-0 d-none d-sm-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- Example single danger button -->
+                    <div class="btn-group mt-1">
+                    <button type="button" class="btn btn-sm dropdown-toggle px-3 py-0" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="./images/en.png" alt="" class="img-fluid me-1">
+                        <span class="my-font fw-bold">USD ($)</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item my-font fw-bold fs-6" href="#">GBP (£)</a></li>
+                        <li><a class="dropdown-item my-font fw-bold fs-6" href="#">EUR (€)</a></li>
+                        <li><a class="dropdown-item my-font fw-bold fs-6" href="#">NGA (₦)</a></li>
+                        <li><a class="dropdown-item my-font fw-bold fs-6" href="#">JPY (¥)</a></li>
+                    </ul>
+                    </div>
+                </div> 
+                <div class="col-md-4">
+                    <p class="text-muted mt-3 fw-bold fs-6 my-font"><i class="fa fa-hourglass-half me-2"></i> Available 24/7 at :
+                        <a href="tel:234-81-6433-4048" class="text-light my-font ms-2"><i class="fa fa-phone me-1"></i>
+                        (+234) 81 - 6433 - 4048
+                        </a>
+                    </p>
+                    
+                </div>
+                <div class="col-md-4 text-end mt-3">
+                    <a href="#" class="text-decoration-none text-light my-font me-3"><i class="fa fa-heart text-danger me-2"></i>Wishlists (3)</a>
+                    <a href="#" class="text-decoration-none text-light my-font me-3"><i class="fa fa-angellist text-danger me-2"></i>Compare (2)</a>
+                    <a href="#" class="text-decoration-none text-light my-font"><i class="fa fa-map-marker text-danger me-2"></i>Order Tracking</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Info Top Bar -->
+
+    <!-- Nav -->
+    <section id="my-nav" class="py-3 bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./images/epaphras1.png" alt="" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 my-font fw-bold fs-5">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: #f75050;">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Shop
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Account
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2 my-font" type="search" placeholder="Search for products" aria-label="Search">
+                        <button class="btn btn-outline-danger my-font" type="submit"></i>Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- End of Nav -->
+
+    <!-- Banner Section -->
+    <section id="banner" class="py-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="row bg-info">
+                        <div class="col">
+                            <a href="#"><img src="./images/banner-sm01.png" alt="" class="img-fluid"></a>
+                        </div>
+                        <div class="col mt-4">
+                            <p class="mb-0">Next <span class="my-color fw-bold">Gen</span></p>
+                            <p class="mb-0">Video With</p>
+                            <p><span class="my-color fw-bold">360 CAM</span></p>
+                            <a href="#" class="text-decoration-none text-success text-danger my-font">Shop Now <i class="fa fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="row mt-3 bg-warning p-2">
+                        <div class="col">
+                            <a href="#"><img src="./images/banner-sm02.png" alt="" class="img-fluid"></a>
+                        </div>
+                        <div class="col mt-4">
+                            <p class="mb-0">Top Rated</span></p>
+                            <p class="mb-0"><span class="my-color fw-bold">Gadgets</span></p>
+                            <p>are on sale</p>
+                            <a href="#" class="text-decoration-none text-success my-font">View Sales <i class="fa fa-user"></i></a>
+                        </div>
+                    </div>
+                    <div class="row mt-3 bg-dark text-light p-2">
+                        <div class="col">
+                            <a href="#"><img src="./images/banner-sm03.png" alt="" class="img-fluid"></a>
+                        </div>
+                        <div class="col mt-4">
+                            <p class="mb-0">catch Big</p>
+                            <p class="mb-0"><span class="text-warning fw-bold">Deals</span> on</p>
+                            <p><span class="text-warning fw-bold">Earbuds</span></p>
+                            <a href="#" class="text-decoration-none text-success text-info my-font">Shop Now <i class="fa fa-music"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 text-center">
+                    <p class="display-6 mt-5 my-font">Discover World of Music with</p>
+                    <h1 class="text-center my-color fw-bold">Headphones</h1>
+                    <p class="text-muted">Choose among the top brands all over the world</p>
+                    <button class="btn btn-danger btn-lg fw-bold my-font">Shop Now<i class="fa fa-arrow-right ms-2"></i></button>
+                    <hr>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card bg-dark">
+                                <img src="./images/12.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <button class="btn btn-sm btn-outline-info">See More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card bg-dark">
+                                <img src="./images/13.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <button class="btn btn-sm btn-outline-info">See More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card bg-dark">
+                                <img src="./images/14.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <button class="btn btn-sm btn-outline-info">See More</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-4 text-end">
+                    <img src="./images/banner-1.png" alt="" class="img-fluid">
+                </div>  
+            </div>
+        </div>
+
+        <!-- <img src="./images/wave.svg" alt="" class="bottom-img"> -->
+    </section>
+    <!-- End of Banner Section -->
+
+    <!-- Trending Products -->
+    <section id="trend" class="py-5 bg-light">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h3 class="fw-bold">Trending Products</h3>
+                </div>
+                <div class="col text-end">
+                    <a href="#" class="btn btn-lg btn-outline-primary my-font">See Purchase</a>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card mt-5">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="my-font text-muted mt-2"><i class="fa fa-angellist me-2"></i>Compare</p>
+                                </div>
+                                <div class="col text-end mt-1">
+                                    <span class="border p-2"><i class="fa fa-heart mt-2 text-danger"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./images/58.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h6 class="card-title text-muted text-center">Headphones</h6>
+                            <p class="fw-bold fs-6 card-text my-font text-center">Wireless Bluetooth Headphones</p>
+                            <div class="row mt-2">
+                                <div class="col-4 text-success fw-bold">$198.<sup>00</sup></div>
+                                <div class="col-8 text-end trend-icon">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center my-font">
+                            <p><i class="fa fa-shopping-cart me-2"></i>Add to Cart</p>
+                            <hr>
+                            <p class="smallie text-danger"><i class="fa fa-check me-2"></i>Quick View</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mt-5">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="my-font text-muted mt-2"><i class="fa fa-angellist me-2"></i>Compare</p>
+                                </div>
+                                <div class="col text-end mt-1">
+                                    <span class="border p-2"><i class="fa fa-heart mt-2 text-danger"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./images/59.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h6 class="card-title text-muted text-center">Computers</h6>
+                            <p class="fw-bold fs-6 card-text my-font text-center">AirPort Extreme Base Station</p>
+                            <div class="row mt-2">
+                                <div class="col-4 text-success fw-bold">$98.<sup>50</sup> 
+                                    <!-- <span class="text-muted smallie fw-bold"><del>$149.<sup>50</sup></del></span> -->
+                                </div>
+                                <div class="col-8 text-end trend-icon mt-2">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center my-font">
+                            <p><i class="fa fa-shopping-cart me-2"></i>Add to Cart</p>
+                            <hr>
+                            <p class="smallie text-danger"><i class="fa fa-check me-2"></i>Quick View</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mt-5">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="my-font text-muted mt-2"><i class="fa fa-angellist me-2"></i>Compare</p>
+                                </div>
+                                <div class="col text-end mt-1">
+                                    <span class="border p-2"><i class="fa fa-heart mt-2 text-danger"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./images/60.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h6 class="card-title text-muted text-center">TV, Video & Audio</h6>
+                            <p class="fw-bold fs-6 card-text my-font text-center">Smart TV LED 49’’ Ultra HD</p>
+                            <div class="row mt-2">
+                                <div class="col text-success fw-bold"><i class="fa fa-times me-2"></i>Out of stock</div>
+                                <!-- <div class="col-8 text-end trend-icon">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="card-footer text-center my-font">
+                            <p><i class="fa fa-shopping-cart me-2"></i>Add to Cart</p>
+                            <hr>
+                            <p class="smallie text-danger"><i class="fa fa-check me-2"></i>Quick View</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mt-5">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="my-font text-muted mt-2"><i class="fa fa-angellist me-2"></i>Compare</p>
+                                </div>
+                                <div class="col text-end mt-1">
+                                    <span class="border p-2"><i class="fa fa-heart mt-2 text-danger"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./images/61.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h6 class="card-title text-muted text-center">Smart Home</h6>
+                            <p class="fw-bold fs-6 card-text my-font text-center">Smart Speaker with Voice Control</p>
+                            <div class="row mt-2">
+                                <div class="col-4 text-success fw-bold">$49.<sup>99</sup></div>
+                                <div class="col-8 text-end trend-icon">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center my-font">
+                            <p><i class="fa fa-shopping-cart me-2"></i>Add to Cart</p>
+                            <hr>
+                            <p class="smallie text-danger"><i class="fa fa-check me-2"></i>Quick View</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card mt-5">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="my-font text-muted mt-2"><i class="fa fa-angellist me-2"></i>Compare</p>
+                                </div>
+                                <div class="col text-end mt-1">
+                                    <span class="border p-2"><i class="fa fa-heart mt-2 text-danger"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./images/62.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h6 class="card-title text-muted text-center">Wearable Electronics</h6>
+                            <p class="fw-bold fs-6 card-text my-font text-center">Fitness GPS Smart Watch</p>
+                            <div class="row mt-2">
+                                <div class="col-4 text-success fw-bold">$317.<sup>40</sup></div>
+                                <div class="col-8 text-end trend-icon">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center my-font">
+                            <p><i class="fa fa-shopping-cart me-2"></i>Add to Cart</p>
+                            <hr>
+                            <p class="smallie text-danger"><i class="fa fa-check me-2"></i>Quick View</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mt-5">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="my-font text-muted mt-2"><i class="fa fa-angellist me-2"></i>Compare</p>
+                                </div>
+                                <div class="col text-end mt-1">
+                                    <span class="border p-2"><i class="fa fa-heart mt-2 text-danger"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./images/63.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h6 class="card-title text-muted text-center">Smartphones</h6>
+                            <p class="fw-bold fs-6 card-text my-font text-center">Popular Smartphone 128GB</p>
+                            <div class="row mt-2">
+                                <div class="col-4 text-success fw-bold">$965.<sup>00</sup></div>
+                                <div class="col-8 text-end trend-icon mt-2">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center my-font">
+                            <p><i class="fa fa-shopping-cart me-2"></i>Add to Cart</p>
+                            <hr>
+                            <p class="smallie text-danger"><i class="fa fa-check me-2"></i>Quick View</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mt-5">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="my-font text-muted mt-2"><i class="fa fa-angellist me-2"></i>Compare</p>
+                                </div>
+                                <div class="col text-end mt-1">
+                                    <span class="border p-2"><i class="fa fa-heart mt-2 text-danger"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./images/64.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h6 class="card-title text-muted text-center">Wearable Electronics</h6>
+                            <p class="fw-bold fs-6 card-text my-font text-center">Smart Watch Series 5, Aluminium</p>
+                            <div class="row mt-2">
+                                <div class="col text-success fw-bold">$349.<sup>99</sup></div>
+                                <div class="col-8 text-end trend-icon">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center my-font">
+                            <p><i class="fa fa-shopping-cart me-2"></i>Add to Cart</p>
+                            <hr>
+                            <p class="smallie text-danger"><i class="fa fa-check me-2"></i>Quick View</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mt-5">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="my-font text-muted mt-2"><i class="fa fa-angellist me-2"></i>Compare</p>
+                                </div>
+                                <div class="col text-end mt-1">
+                                    <span class="border p-2"><i class="fa fa-heart mt-2 text-danger"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./images/65.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h6 class="card-title text-muted text-center">Computers</h6>
+                            <p class="fw-bold fs-6 card-text my-font text-center">Convertible 2-in-1 HD Laptop</p>
+                            <div class="row mt-2">
+                                <div class="col-4 text-success fw-bold">$412.<sup>00</sup></div>
+                                <div class="col-8 text-end trend-icon">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center my-font">
+                            <p><i class="fa fa-shopping-cart me-2"></i>Add to Cart</p>
+                            <hr>
+                            <p class="smallie text-danger"><i class="fa fa-check me-2"></i>Quick View</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Trending Products -->
+
+    <!-- Offer Section -->
+    <section id="offer" class="py-5">
+        <div class="container my-bg-sec-color py-5">
+            <div class="row">
+                <div class="col-md-5 mt-4">
+                    <span class="bg-danger text-light p-1 my-font ms-4 rounded-1"><i class="fa fa-check me-2"></i>Limited Offer</span>
+                    <p class="mt-5 fs-3 ms-4 mb-0">All New</p>
+                    <p class="my-color fw-bold fs-2 ms-4 mb-0">Last Gen iPad Pro</p>
+                    <p class="text-muted ms-4">at discounted price. Hurry up!</p>
+                    <button class="btn btn-primary ms-4 my-font">View Offers<i class="fa fa-list ms-2"></i></button>
+                </div>
+                <div class="col-md-7">
+                    <img src="./images/offer-1.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Offer Section -->
+
+    <!-- Support Carousel -->
+    <section id="company" class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="./images/car-1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-3.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-4.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-5.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-6.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-7.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-8.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="./images/car-7.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-3.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-4.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-3.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-8.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-5.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="./images/car-5.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-4.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-7.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-3.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-8.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-6.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="./images/car-8.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-7.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-6.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-5.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-4.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-3.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="./images/car-1.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Support Carousel -->
+
+    <!-- Sales Section -->
+    <section id="sales" class="py-5">
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- Bestseller Section -->
+                <div class="col-md-4 mb-0">
+                    <h5 class="text-muted fw-bold">Bestsellers</h5>
+                    <div class="row">
+                        <div class="col-4 mt-3">
+                            <img src="./images/sell-1.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-8 my-color mt-5">
+                            <p class="my-font fw-bold mb-0">Console Controller Charger</p>
+                            <p class="text-success fw-bold">$14.<span class="smallie">97</span>
+                                <span class="text-muted smallie fw-bold"><del>$16.47</del></span>
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4 mt-3">
+                            <img src="./images/sell-2.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-8 my-color mt-5">
+                            <p class="my-font fw-bold mb-0">Android Smart TV Box</p>
+                            <p class="text-success fw-bold">$67.<span class="smallie">00</span>
+                                <span class="text-muted smallie fw-bold"><del>$90.43</del></span>
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4 mt-3">
+                            <img src="./images/sell-3.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-8 my-color mt-5">
+                            <p class="my-font fw-bold mb-0">Laserjet Printer All-in-One</p>
+                            <p class="text-success fw-bold">$428.<span class="smallie">60</span>
+                                <!-- <span class="text-muted smallie fw-bold"><del>$16.47</del></span> -->
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4 mt-3">
+                            <img src="./images/sell-4.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-8 my-color mt-5">
+                            <p class="my-font fw-bold mb-0">Android Smartphone S10</p>
+                            <p class="text-success fw-bold">$799.<span class="smallie">00</span>
+                                <!-- <span class="text-muted smallie fw-bold"><del>$16.47</del></span> -->
+                            </p>
+                        </div>
+                        <span class="my-color mt-3">...</span>
+                        <a href="#" class="text-danger text-decoration-none my-font">View More <i class="fa fa-list ms-2"></i></a>
+                    </div>
+                </div>
+
+                <!-- New Arrival Section -->
+                <div class="col-md-4 mb-0">
+                    <h5 class="text-muted fw-bold">New Arrivals</h5>
+                    <div class="row">
+                        <div class="col-4 mt-3">
+                            <img src="./images/sell-5.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-8 my-color mt-5">
+                            <p class="my-font fw-bold mb-0">Monoblock Desktop PC</p>
+                            <p class="text-success fw-bold">$1949.<span class="smallie">00</span>
+                                <!-- <span class="text-muted smallie fw-bold"><del>$16.47</del></span> -->
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4 mt-3">
+                            <img src="./images/sell-6.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-8 my-color mt-5">
+                            <p class="my-font fw-bold mb-0">Cloud Security Camera</p>
+                            <p class="text-success fw-bold">$122.<span class="smallie">00</span>
+                                <!-- <span class="text-muted smallie fw-bold"><del>$90.43</del></span> -->
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4 mt-3">
+                            <img src="./images/sell-7.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-8 my-color mt-5">
+                            <p class="my-font fw-bold mb-0">Wireless Bluetooth Headphones</p>
+                            <p class="text-success fw-bold">$259.<span class="smallie">00</span>
+                                <!-- <span class="text-muted smallie fw-bold"><del>$16.47</del></span> -->
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4 mt-3">
+                            <img src="./images/sell-8.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-8 my-color mt-5">
+                            <p class="my-font fw-bold mb-0">Digital Camera 40MP</p>
+                            <p class="text-success fw-bold">$210.<span class="smallie">00</span>
+                                <span class="text-muted smallie fw-bold"><del>$249.00</del></span>
+                            </p>
+                        </div>
+                        <span class="my-color mt-3">...</span>
+                        <a href="#" class="text-danger text-decoration-none my-font">View More <i class="fa fa-list ms-2"></i></a>
+                    </div>
+                </div>
+
+                <!-- Top Rated -->
+                <div class="col-md-4 mb-0">
+                    <h5 class="text-muted fw-bold">Top Rated</h5>
+                    <div class="row">
+                        <div class="col-4 mt-3">
+                            <img src="./images/sell-9.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-8 my-color mt-5">
+                            <p class="my-font fw-bold mb-0">360 Degrees Camera</p>
+                            <p class="text-success fw-bold">$98.<span class="smallie">75</span>
+                                <!-- <span class="text-muted smallie fw-bold"><del>$16.47</del></span> -->
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4 mt-3">
+                            <img src="./images/sell-10.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-8 my-color mt-5">
+                            <p class="my-font fw-bold mb-0">Wireless Bluetooth Headphones</p>
+                            <p class="text-success fw-bold">$428.<span class="smallie">60</span>
+                                <!-- <span class="text-muted smallie fw-bold"><del>$90.43</del></span> -->
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4 mt-3">
+                            <img src="./images/sell-11.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-8 my-color mt-5">
+                            <p class="my-font fw-bold mb-0">Android Smartphone S9</p>
+                            <p class="text-success fw-bold">$749.<span class="smallie">99</span>
+                                <span class="text-muted smallie fw-bold"><del>$859.99</del></span>
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4 mt-3">
+                            <img src="./images/sell-12.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-8 my-color mt-5">
+                            <p class="my-font fw-bold mb-0">Smart Watch Series 5, Aluminium</p>
+                            <p class="text-success fw-bold">$349.<span class="smallie">99</span>
+                                <!-- <span class="text-muted smallie fw-bold"><del>$249.00</del></span> -->
+                            </p>
+                        </div>
+                        <span class="my-color mt-3">...</span>
+                        <a href="#" class="text-danger text-decoration-none my-font">View More <i class="fa fa-list ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Sales Section -->
+
+    <!-- Video Section -->
+    <section id="video-section" class="py-5">
+        <div class="container border border-1 rounded bg-light p-5">
+            <div class="row">
+                <div class="col-md-4 my-bg-sec-color p-5 text-center">
+                    <img src="./images/yt-logo.png" alt="" class="img-fluid mb-2">
+                    <img src="./images/yt-subscribers.png" alt="" class="img-fluid ms-5 mb-0 d-block">
+                    <p class="">250K +</p>
+                    <button class="btn btn-danger btn-lg my-font"><i class="fa fa-user me-2"></i>Subscribe *</button>
+                    <p class="text-muted smallie mt-2">*View latest gadgets reviews available for purchase in our store.</p>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col">
+                            <h5 class="my-color fw-bold text-center">Latest videos from <span class="text-danger my-font">iEpaphras channel</span></h5>
+                        </div>
+                        <div class="col text-end">
+                            <button class="btn btn-outline-info btn-sm"><i class="fa fa-youtube fa-2x text-danger me-2"></i>More Videos</button>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <div class="ratio ratio-16x9 mt-3">
+                                <iframe src="https://www.youtube.com/embed/JGL8qAS7l9A" title="YouTube video" allowfullscreen></iframe>
+                            </div>
+                            <p class="fw-bold mt-3 text-center">5 New Cool Gadgets For 2021 Only On <span class="text-danger">iEpaphras</span>
+                                - <span class="text-success text-uppercase smallie">Cheap Budget</span></p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="ratio ratio-16x9 mt-3">
+                                <iframe src="https://www.youtube.com/embed/dNs6zUqu3ek" title="YouTube video" allowfullscreen></iframe>
+                            </div>
+                            <p class="fw-bold mt-3 text-center">Top 10 Smart Wristwatch On <span class="text-danger">iEpaphras</span>
+                            You Must See</span></p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="ratio ratio-16x9 mt-3">
+                                <iframe src="https://www.youtube.com/embed/YmLfjJybCvU" title="YouTube video" allowfullscreen></iframe>
+                            </div>
+                            <p class="fw-bold mt-3 text-center">Amazing Apple Gadgets You Must See On <span class="text-danger">iEpaphras</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Video Section -->
+
+    <!-- Follow-up Section -->
+    <section id="follow-up" class="pt-5">
+        <div class="row">
+            <div class="col-md-6 text-dark side-A">
+                <div class="container-fluid text-center p-5">
+                    <i class="fa fa-pencil fa-2x text-danger"></i>
+                    <h3 class="my-color my-font fw-bold mt-3">Read the Blog</h3>
+                    <a href="#" class="text-muted text-decoration-none">Latest store, fashion news and trends</a>
+                </div>
+            </div>
+            <div class="col-md-6 text-dark side-B">
+                <div class="container-fluid text-center p-5">
+                    <i class="fa fa-instagram fa-2x text-primary"></i>
+                    <h3 class="my-color my-font fw-bold mt-3">Read the Blog</h3>
+                    <a href="#" class="text-muted text-decoration-none">#ShopWithiEpaphras</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Follow-up Section -->
+
+    <!-- Tail Section -->
+    <section id="tail" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="text-light my-font mb-3">Shop Departments</h5>
+                    <a href="#" class="text-decoration-none fs-6 d-block">Sneakers & Athletic</a>
+                    <a href="#" class="text-decoration-none fs-6 d-block">Athletic Apparel</a>
+                    <a href="#" class="text-decoration-none fs-6 d-block">Sandals</a>
+                    <a href="#" class="text-decoration-none fs-6 d-block">Jeans</a>
+                    <a href="#" class="text-decoration-none fs-6 d-block">Shirt & Tops</a>
+                    <a href="#" class="text-decoration-none fs-6 d-block">Shorts</a>
+                    <a href="#" class="text-decoration-none fs-6 d-block">T-Shirts</a>
+                    <a href="#" class="text-decoration-none fs-6 d-block">Swimwear</a>
+                    <a href="#" class="text-decoration-none fs-6 d-block">Clogs & Mules</a>
+                    <a href="#" class="text-decoration-none fs-6 d-block">Bags & Wallets</a>
+                    <a href="#" class="text-decoration-none fs-6 d-block">Accessories</a>
+                    <a href="#" class="text-decoration-none fs-6 d-block">Sunglasses & Eyewear</a>
+                    <a href="#" class="text-decoration-none fs-6 d-block">Watches</a>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-light my-font mb-3">Account & Shipping Info</h5>
+                    <a href="#" class="text-decoration-none fs-6 d-block">Your Account</a>
+                    <a href="#" class="text-decoration-none fs-6 d-block">Shipping Rates & Policies</a>
+                    <a href="#" class="text-decoration-none fs-6 d-block">Refunds & Replacements</a>
+                    <a href="#" class="text-decoration-none fs-6 d-block">Order Tracking</a>
+                    <a href="#" class="text-decoration-none fs-6 d-block">Delivery Info</a>
+                    <a href="#" class="text-decoration-none fs-6 d-block">Taxes & Fees</a>
+
+                    <h5 class="text-light my-font mb-3 mt-3">About Us</h5>
+                    <a href="#" class="text-decoration-none fs-6 d-block">About Company</a>
+                    <a href="#" class="text-decoration-none fs-6 d-block">Our Team</a>
+                    <a href="#" class="text-decoration-none fs-6 d-block">Careers</a>
+                    <a href="#" class="text-decoration-none fs-6 d-block">News</a>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-light my-font mb-3">Stay Informed</h5>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label text-info">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text smallie text-light">* Subscribe to our newsletter to 
+                            receive early discount offers, updates and new products info.</div>
+                        </div>
+                        <button type="submit" class="btn btn-info my-font my-color">Subscribe</button>
+                    </form>
+                    <h5 class="text-light my-font mb-3 mt-3">Download Our App</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="my-bg-color text-muted rounded-2 p-0">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <i class="fa fa-apple fa-2x text-light ms-2 mt-2"></i>
+                                    </div>
+                                    <div class="col-9">
+                                        <p class="text-muted text-uppercase my-font smallie fw-bold mb-0 mt-2">Downloaded on the</p>
+                                        <p class="text-light fw-bold mt-0">Apple Store</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="my-bg-color text-muted rounded-2 p-0">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <i class="fa fa-windows fa-2x text-light ms-2 mt-2"></i>
+                                    </div>
+                                    <div class="col-9">
+                                        <p class="text-muted text-uppercase my-font smallie fw-bold mb-0 mt-2">Downloaded on the</p>
+                                        <p class="text-light fw-bold mt-0">Windows</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Tail Section -->
+
+    <!-- Footer Section -->
+    <footer id="footer" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa fa-rocket fa-2x text-danger mt-3"></i>
+                        </div>
+                        <div class="col-10">
+                            <p class="text-light fw-bold mb-0">Fast and Free Delivery</p>
+                            <p class="text-muted fs-6">Free delivery for all orders over $200</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa fa-undo fa-2x text-danger mt-3"></i>
+                        </div>
+                        <div class="col-10">
+                            <p class="text-light fw-bold mb-0">Money Back Guarantee</p>
+                            <p class="text-muted fs-6">We return money within 30 days</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa fa-headphones fa-2x text-danger mt-3"></i>
+                        </div>
+                        <div class="col-10">
+                            <p class="text-light fw-bold mb-0">24/7 Customer Support</p>
+                            <p class="text-muted fs-6">Friendly 24/7 customer support</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa fa-shield fa-2x text-danger mt-3"></i>
+                        </div>
+                        <div class="col-10">
+                            <p class="text-light fw-bold mb-0">Secure Online Payment</p>
+                            <p class="text-muted fs-6">We possess SSL / Secure сertificate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="text-light">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-4">
+                            <h4 class="fw-bold text-light mt-2">iEpaphras <sup class="smallie">TM</sup></h4>
+                        </div>
+                        <div class="col-8">
+                            <div class="btn-group mb-4">
+                                <button type="button" class="btn btn-danger btn-sm dropdown-toggle py-0 px-3" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="./images/en.png" alt="" class="img-fluid me-1">
+                                    <span class="my-font fw-bold">USD ($)</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item my-font fw-bold fs-6" href="#">GBP (£)</a></li>
+                                    <li><a class="dropdown-item my-font fw-bold fs-6" href="#">EUR (€)</a></li>
+                                    <li><a class="dropdown-item my-font fw-bold fs-6" href="#">NGA (₦)</a></li>
+                                    <li><a class="dropdown-item my-font fw-bold fs-6" href="#">JPY (¥)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-inline">
+                        <a href="#" class="text-decoration-none text-muted me-2 my-font">Outlets</a>
+                        <a href="#" class="text-decoration-none text-muted me-2 my-font">Affiliates</a>
+                        <a href="#" class="text-decoration-none text-muted me-2 my-font">Support</a>
+                        <a href="#" class="text-decoration-none text-muted me-2 my-font">Privacy</a>
+                        <a href="#" class="text-decoration-none text-muted me-2 my-font">Terms of Use</a>
+                    </div>
+                    <p class="copyright text-info smallie my-font mt-5">&copy; All rights reserved. Made by iEpaphras Inc.</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="">
+                        <a href="#"><span class="i fa fa-facebook me-2 bg-secondary px-3 py-2 rounded-1 text-dark"></span></a>
+                        <a href="#"><span class="i fa fa-twitter me-2 bg-secondary px-3 py-2 rounded-1 text-dark"></span></a>
+                        <a href="#"><span class="i fa fa-instagram me-2 bg-secondary px-3 py-2 rounded-1 text-dark"></span></a>
+                        <a href="#"><span class="i fa fa-linkedin me-2 bg-secondary px-3 py-2 rounded-1 text-dark"></span></a>
+                        <a href="#"><span class="i fa fa-pinterest-p me-2 bg-secondary px-3 py-2 rounded-1 text-dark"></span></a>
+                    </div>
+                    <img src="./images/pay-gateways.png" alt="" class="img-fluid mt-4">
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- End of Footer Section -->
+
+    <!-- Nav Arrow Button -->
+    <a href="#" class="gotopbtn">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+    <!-- End of Nav Arrow Button -->
+
+    <!-- JS Bootstrap -->
+    <script src="./js/bootstrap.bundle.js"></script>
+
+    <!-- jQuery -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+</body>
+</html>
